@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="putao-common" />
+        <module name="putao-gateway" />
+        <module name="putao-item-interface" />
+        <module name="putao-item-service" />
+        <module name="putao-registry" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="putao" target="1.8" />
+      <module name="putao-common" target="1.8" />
+      <module name="putao-gateway" target="1.8" />
+      <module name="putao-item" target="1.8" />
+      <module name="putao-item-interface" target="1.8" />
+      <module name="putao-item-service" target="1.8" />
+      <module name="putao-registry" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

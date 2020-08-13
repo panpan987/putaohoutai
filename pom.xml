@@ -6,7 +6,13 @@
 
   <groupId>com.putao.parent</groupId>
   <artifactId>putao</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
+  <modules>
+    <module>putao-registry</module>
+    <module>putao-gateway</module>
+    <module>putao-item</module>
+    <module>putao-common</module>
+  </modules>
   <packaging>pom</packaging>
 
   <parent>

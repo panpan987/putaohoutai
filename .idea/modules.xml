@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/putao.iml" filepath="$PROJECT_DIR$/putao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-common/putao-common.iml" filepath="$PROJECT_DIR$/putao-common/putao-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-gateway/putao-gateway.iml" filepath="$PROJECT_DIR$/putao-gateway/putao-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-item/putao-item.iml" filepath="$PROJECT_DIR$/putao-item/putao-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-item/putao-item-interface/putao-item-interface.iml" filepath="$PROJECT_DIR$/putao-item/putao-item-interface/putao-item-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-item/putao-item-service/putao-item-service.iml" filepath="$PROJECT_DIR$/putao-item/putao-item-service/putao-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-registry/putao-registry.iml" filepath="$PROJECT_DIR$/putao-registry/putao-registry.iml" />
     </modules>
   </component>
 </project>
