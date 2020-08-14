@@ -12,6 +12,7 @@
     <module>putao-gateway</module>
     <module>putao-item</module>
     <module>putao-common</module>
+    <module>putao-upload</module>
   </modules>
   <packaging>pom</packaging>
 

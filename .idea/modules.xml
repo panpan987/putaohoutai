@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/putao-item/putao-item-interface/putao-item-interface.iml" filepath="$PROJECT_DIR$/putao-item/putao-item-interface/putao-item-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/putao-item/putao-item-service/putao-item-service.iml" filepath="$PROJECT_DIR$/putao-item/putao-item-service/putao-item-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/putao-registry/putao-registry.iml" filepath="$PROJECT_DIR$/putao-registry/putao-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-upload/putao-upload.iml" filepath="$PROJECT_DIR$/putao-upload/putao-upload.iml" />
     </modules>
   </component>
 </project>
