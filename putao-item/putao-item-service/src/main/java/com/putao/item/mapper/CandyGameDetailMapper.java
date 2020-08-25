@@ -1,0 +1,12 @@
+package com.putao.item.mapper;
+
+import com.putao.item.pojo.CandyGameDetail;
+import tk.mybatis.mapper.common.Mapper;
+
+/**
+ * @version 1.0
+ * @author: panpan
+ * @create: 2020-08-16 22:30
+ **/
+public interface CandyGameDetailMapper extends Mapper<CandyGameDetail> {
+}

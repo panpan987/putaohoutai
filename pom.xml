@@ -13,6 +13,8 @@
     <module>putao-item</module>
     <module>putao-common</module>
     <module>putao-upload</module>
+    <module>putao-user</module>
+    <module>putao-auth</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/putao.iml" filepath="$PROJECT_DIR$/putao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-auth/putao-auth.iml" filepath="$PROJECT_DIR$/putao-auth/putao-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-auth/putao-auth-common/putao-auth-common.iml" filepath="$PROJECT_DIR$/putao-auth/putao-auth-common/putao-auth-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-auth/putao-auth-service/putao-auth-service.iml" filepath="$PROJECT_DIR$/putao-auth/putao-auth-service/putao-auth-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/putao-common/putao-common.iml" filepath="$PROJECT_DIR$/putao-common/putao-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/putao-gateway/putao-gateway.iml" filepath="$PROJECT_DIR$/putao-gateway/putao-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/putao-item/putao-item.iml" filepath="$PROJECT_DIR$/putao-item/putao-item.iml" />
@@ -10,6 +13,9 @@
       <module fileurl="file://$PROJECT_DIR$/putao-item/putao-item-service/putao-item-service.iml" filepath="$PROJECT_DIR$/putao-item/putao-item-service/putao-item-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/putao-registry/putao-registry.iml" filepath="$PROJECT_DIR$/putao-registry/putao-registry.iml" />
       <module fileurl="file://$PROJECT_DIR$/putao-upload/putao-upload.iml" filepath="$PROJECT_DIR$/putao-upload/putao-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-user/putao-user.iml" filepath="$PROJECT_DIR$/putao-user/putao-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-user/putao-user-interface/putao-user-interface.iml" filepath="$PROJECT_DIR$/putao-user/putao-user-interface/putao-user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/putao-user/putao-user-service/putao-user-service.iml" filepath="$PROJECT_DIR$/putao-user/putao-user-service/putao-user-service.iml" />
     </modules>
   </component>
 </project>
