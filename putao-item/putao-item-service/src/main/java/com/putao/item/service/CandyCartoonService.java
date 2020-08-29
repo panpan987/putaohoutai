@@ -2,12 +2,9 @@ package com.putao.item.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.putao.common.PageResult;
+import com.putao.common.pojo.PageResult;
 import com.putao.item.mapper.CandyCartoonMapper;
-import com.putao.item.mapper.CandyGameMapper;
 import com.putao.item.pojo.CandyCartoon;
-import com.putao.item.pojo.CandyCartoonDetail;
-import com.putao.item.pojo.CandyGame;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

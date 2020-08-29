@@ -17,7 +17,7 @@ public class CandyVideo implements Serializable {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long id;
+  private String id;
 
   private String title; //标题描述
 
@@ -29,11 +29,11 @@ public class CandyVideo implements Serializable {
 
   private String upAvatar; //up头像
 
-  public Long getId() {
+  public String getId() {
     return id;
   }
 
-  public void setId(Long id) {
+  public void setId(String id) {
     this.id = id;
   }
 

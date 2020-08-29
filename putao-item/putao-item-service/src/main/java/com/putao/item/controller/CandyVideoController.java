@@ -1,9 +1,7 @@
 package com.putao.item.controller;
 
-import com.putao.common.PageResult;
-import com.putao.item.pojo.CandyGame;
+import com.putao.common.pojo.PageResult;
 import com.putao.item.pojo.CandyVideo;
-import com.putao.item.service.CandyGameService;
 import com.putao.item.service.CandyVideoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

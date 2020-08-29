@@ -1,5 +1,6 @@
 package com.putao.upload.controller;
 
+import com.putao.pojo.FilePath;
 import com.putao.upload.service.UploadService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,12 +27,15 @@ public class UploadController {
   private UploadService uploadService;
 
   @PostMapping("image")
-  public ResponseEntity<String> uploadImage(@RequestParam("file")MultipartFile file) {
+  //file为向服务器上传的文件名
+  public ResponseEntity<FilePath> uploadImage(@RequestParam("file")MultipartFile file) {
     String url = this.uploadService.uploadImage(file);
     if (StringUtils.isBlank(url)) {
       return ResponseEntity.badRequest().build();
     }
-    return ResponseEntity.status(HttpStatus.CREATED).body(url);
+    FilePath filePath = new FilePath();
+    filePath.setFilePath(url);
+    return ResponseEntity.status(HttpStatus.CREATED).body(filePath);
   }
 
 }

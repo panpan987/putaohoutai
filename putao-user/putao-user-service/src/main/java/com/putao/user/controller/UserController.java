@@ -39,7 +39,7 @@ public class UserController {
   }
 
   /**
-   * 查询用户名和密码查询是否匹配
+   * 查询用户名和密码查询是否匹配,是的话前台就会登录成功
    * @param user
    * @return
    */
@@ -123,54 +123,36 @@ public class UserController {
   }
 
   /**
-   * 根据用户id查询用户
-   * @param userId
-   * @return
-   */
-  @GetMapping("find/{userId}")
-  public ResponseEntity<User> findUserById(@PathVariable("userId")String userId) {
-    if (StringUtils.isEmpty(userId)) {
-      return ResponseEntity.badRequest().build();
-    }
-    User user = this.userService.findUserById(userId);
-    if (user == null) {
-      return ResponseEntity.notFound().build();
-    }
-    return ResponseEntity.ok(user);
-  }
-
-  /**
-   * 根据条件查询用户
+   * 根据条件查询用户(id或用户名)
    * @param user
    * @return
    */
-  @PostMapping("find")
-  public ResponseEntity<List<User>> findUserByExample(@RequestBody User user) {
+  @PostMapping("findUserByCondition")
+  public ResponseEntity<User> findUserByCondition(@RequestBody User user) {
     if (user == null) {
       return ResponseEntity.badRequest().build();
     }
-    List<User> userList = this.userService.findUserByExample(user);
-    if (CollectionUtils.isEmpty(userList)) {
+    User u = this.userService.findUserByCondition(user);
+    if (u == null) {
       return ResponseEntity.notFound().build();
     }
-    return ResponseEntity.ok(userList);
+    return ResponseEntity.ok(u);
   }
 
   /**
-   * 查询所有用户
+   * 根据用户名的密码查询用户信息
+   * @param username
+   * @param password
    * @return
    */
-  @GetMapping("find")
-  public ResponseEntity<List<User>> findAll() {
-
-    List<User> userList = this.userService.findAll();
-    if (CollectionUtils.isEmpty(userList)) {
-      return ResponseEntity.notFound().build();
+  @GetMapping("query")
+  public ResponseEntity<User> queryUser(@RequestParam("username")String username,
+                                        @RequestParam("password")String password){
+    User user = this.userService.queryUser(username, password);
+    if(user == null) {
+      return ResponseEntity.ok(null);
     }
-    return ResponseEntity.ok(userList);
+    return ResponseEntity.ok(user);
   }
-
-
-
 
 }

@@ -2,12 +2,9 @@ package com.putao.item.controller;
 
 import com.putao.item.pojo.CandyCartoon;
 import com.putao.item.pojo.CandyCartoonDetail;
-import com.putao.item.pojo.CandyGame;
-import com.putao.item.pojo.CandyGameDetail;
 import com.putao.item.service.CandyCartoonDetailService;
 import com.putao.item.service.CandyCartoonService;
-import com.putao.item.service.CandyGameDetailService;
-import com.putao.utils.IdWorker;
+import com.putao.common.utils.IdWorker;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -31,7 +28,6 @@ public class CandyCartoonDetailController {
 
   @Autowired
   private IdWorker idWorker;
-
 
   @GetMapping("{candydetailid}")
   public ResponseEntity<CandyCartoonDetail> queryCandyCartoonDetailByCandyCartoonId(@PathVariable("candydetailid")String candycartoonid) {

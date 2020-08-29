@@ -1,6 +1,8 @@
 package com.putao.user.pojo;
 
+import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -23,14 +25,12 @@ public class User implements Serializable {
 
   private String username;  //用户名
 
-  //@JsonIgnore
   private String password;  //密码(Bcrypt加密)
 
   private Date created; //创建时间
 
   private String avatar;  //用户头像
 
-  //@JsonIgnore
   private String gensalt; //盐
 
   public String getId() {

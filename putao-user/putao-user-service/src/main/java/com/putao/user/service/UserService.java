@@ -2,14 +2,15 @@ package com.putao.user.service;
 
 import com.putao.user.mapper.UserMapper;
 import com.putao.user.pojo.User;
-import com.putao.utils.BCrypt;
-import com.putao.utils.IdWorker;
+import com.putao.common.utils.utils.BCrypt;
+import com.putao.common.utils.IdWorker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 import tk.mybatis.mapper.entity.Example;
 
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -53,7 +54,7 @@ public class UserService {
    */
   public Boolean checkLogin(User user) {
     //根据用户名查询用户信息
-    User userMatchUserName = this.findUserByExample(user).get(0);
+    User userMatchUserName = this.findUserByCondition(user);
 
     String password = user.getPassword();
     //判断密码对不对,并返回
@@ -120,16 +121,6 @@ public class UserService {
     return this.userMapper.updateByPrimaryKeySelective(user) == 1;
   }
 
-  /**
-   * 根据用户id查询用户
-   *
-   * @param userId
-   * @return
-   */
-  public User findUserById(String userId) {
-
-    return this.userMapper.selectByPrimaryKey(userId);
-  }
 
   /**
    * 根据条件查询用户(此时id不能为null)
@@ -137,26 +128,34 @@ public class UserService {
    * @param user
    * @return
    */
-  public List<User> findUserByExample(User user) {
+  public User findUserByCondition(User user) {
     Example example = new Example(User.class);
     Example.Criteria criteria = example.createCriteria();
-    if (!StringUtils.isEmpty(user.getUsername())) {
+    if (!StringUtils.isEmpty(user.getUsername()))
       criteria.andEqualTo("username", user.getUsername());
+    if (!StringUtils.isEmpty(user.getId())){
+      criteria.andEqualTo("id", user.getId());
     }
-
-
-    return this.userMapper.selectByExample(example);
+    return this.userMapper.selectOneByExample(example);
   }
+
 
   /**
-   * 查询所有用户
-   *
+   * 根据用户名和密码查询用户
+   * @param username
+   * @param password
    * @return
    */
-  public List<User> findAll() {
-
-    return this.userMapper.selectAll();
+  public User queryUser(String username, String password) {
+    Example example = new Example(User.class);
+    Example.Criteria criteria = example.createCriteria();
+    criteria.andEqualTo("username",username);
+    User user = this.userMapper.selectOneByExample(example);
+    boolean b = BCrypt.checkpw(password, user.getPassword());
+    if (b) {
+      return user;
+    }else {
+      return null;
+    }
   }
-
-
 }

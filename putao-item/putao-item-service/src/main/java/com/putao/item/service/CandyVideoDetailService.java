@@ -32,4 +32,8 @@ public class CandyVideoDetailService {
 
     return  candyVideoDetailMapper.selectOneByExample(example);
   }
+
+  public Boolean insertCandyVideoDetail(CandyVideoDetail minivideo) {
+    return candyVideoDetailMapper.insertSelective(minivideo) == 1;
+  }
 }

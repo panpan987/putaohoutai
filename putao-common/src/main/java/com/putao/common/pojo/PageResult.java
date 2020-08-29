@@ -1,4 +1,4 @@
-package com.putao.common;
+package com.putao.common.pojo;
 
 import java.util.List;
 

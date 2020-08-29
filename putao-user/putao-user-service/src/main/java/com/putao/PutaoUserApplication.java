@@ -1,6 +1,6 @@
 package com.putao;
 
-import com.putao.utils.IdWorker;
+import com.putao.common.utils.IdWorker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;

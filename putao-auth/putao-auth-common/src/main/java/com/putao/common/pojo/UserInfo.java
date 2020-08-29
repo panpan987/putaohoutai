@@ -9,6 +9,7 @@ public class UserInfo {
 
     private String username;
 
+
     public UserInfo() {
     }
 
@@ -32,4 +33,5 @@ public class UserInfo {
     public void setUsername(String username) {
         this.username = username;
     }
+
 }

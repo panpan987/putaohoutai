@@ -2,10 +2,8 @@ package com.putao.item.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.putao.common.PageResult;
-import com.putao.item.mapper.CandyGameMapper;
+import com.putao.common.pojo.PageResult;
 import com.putao.item.mapper.CandyVideoMapper;
-import com.putao.item.pojo.CandyGame;
 import com.putao.item.pojo.CandyVideo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -45,5 +43,9 @@ public class CandyVideoService {
 
     return new PageResult<>(pageInfo.getTotal(),pageInfo.getPages(),pageInfo.getList());
 
+  }
+
+  public Boolean insertCandyVideo(CandyVideo candyVideo) {
+     return this.candyVideoMapper.insertSelective(candyVideo) == 1;
   }
 }

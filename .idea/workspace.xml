@@ -2,22 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3960fcd0-2f98-4dd6-ac74-5b2d0f2ffb20" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/putao-gateway/src/main/java/com/putao/gateway/config/PutaoCorsConfiguration.java" afterPath="$PROJECT_DIR$/putao-gateway/src/main/java/com/putao/gateway/config/PutaoCorsConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/putao-auth/putao-auth-common/pom.xml" afterPath="$PROJECT_DIR$/putao-auth/putao-auth-common/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/pojo/UserInfo.java" afterPath="$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/pojo/UserInfo.java" />
+      <change beforePath="$PROJECT_DIR$/putao-auth/putao-auth-service/pom.xml" afterPath="$PROJECT_DIR$/putao-auth/putao-auth-service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/putao-common/pom.xml" afterPath="$PROJECT_DIR$/putao-common/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/PageResult.java" afterPath="$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/pojo/PageResult.java" />
+      <change beforePath="$PROJECT_DIR$/putao-common/src/main/java/com/putao/utils/BCrypt.java" afterPath="$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/utils/BCrypt.java" />
+      <change beforePath="$PROJECT_DIR$/putao-common/src/main/java/com/putao/utils/IdWorker.java" afterPath="$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/utils/IdWorker.java" />
+      <change beforePath="$PROJECT_DIR$/putao-common/target/classes/com/putao/common/PageResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/putao-common/target/classes/com/putao/utils/BCrypt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/putao-common/target/classes/com/putao/utils/IdWorker.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/putao-gateway/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/putao-gateway/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/putao-gateway/target/classes/application.yml" afterPath="$PROJECT_DIR$/putao-gateway/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/putao-gateway/target/classes/com/putao/gateway/config/PutaoCorsConfiguration.class" afterPath="$PROJECT_DIR$/putao-gateway/target/classes/com/putao/gateway/config/PutaoCorsConfiguration.class" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyVideo.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyVideo.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyVideoDetail.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyVideoDetail.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-interface/target/classes/com/putao/item/pojo/CandyVideo.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-interface/target/classes/com/putao/item/pojo/CandyVideo.class" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-interface/target/classes/com/putao/item/pojo/CandyVideoDetail.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-interface/target/classes/com/putao/item/pojo/CandyVideoDetail.class" />
       <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/PutaoItemApplication.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/PutaoItemApplication.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyCartoonController.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyCartoonController.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyCartoonDetailController.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyCartoonDetailController.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameController.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameController.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameDetailController.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameDetailController.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyVideoController.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyVideoController.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyVideoDetailController.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyVideoDetailController.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyCartoonService.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyCartoonService.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyGameService.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyGameService.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoDetailService.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoDetailService.java" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoService.java" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoService.java" />
       <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/PutaoItemApplication.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/PutaoItemApplication.class" />
-      <change beforePath="$PROJECT_DIR$/putao-upload/pom.xml" afterPath="$PROJECT_DIR$/putao-upload/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/config/PutaoCorsConfiguration.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyCartoonController.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyCartoonController.class" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyCartoonDetailController.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyCartoonDetailController.class" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyGameController.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyGameController.class" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyGameDetailController.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyGameDetailController.class" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyVideoController.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyVideoController.class" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyVideoDetailController.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/controller/CandyVideoDetailController.class" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/service/CandyCartoonService.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/service/CandyCartoonService.class" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/service/CandyGameService.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/service/CandyGameService.class" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/service/CandyVideoDetailService.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/service/CandyVideoDetailService.class" />
+      <change beforePath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/service/CandyVideoService.class" afterPath="$PROJECT_DIR$/putao-item/putao-item-service/target/classes/com/putao/item/service/CandyVideoService.class" />
       <change beforePath="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/UploadController.java" afterPath="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/UploadController.java" />
       <change beforePath="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/service/UploadService.java" afterPath="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/service/UploadService.java" />
       <change beforePath="$PROJECT_DIR$/putao-upload/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/putao-upload/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/putao-upload/target/classes/application.yml" afterPath="$PROJECT_DIR$/putao-upload/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/putao-upload/target/classes/com/putao/upload/config/PutaoCorsConfiguration.class" afterPath="$PROJECT_DIR$/putao-upload/target/classes/com/putao/upload/config/PutaoCorsConfiguration.class" />
       <change beforePath="$PROJECT_DIR$/putao-upload/target/classes/com/putao/upload/controller/UploadController.class" afterPath="$PROJECT_DIR$/putao-upload/target/classes/com/putao/upload/controller/UploadController.class" />
       <change beforePath="$PROJECT_DIR$/putao-upload/target/classes/com/putao/upload/service/UploadService.class" afterPath="$PROJECT_DIR$/putao-upload/target/classes/com/putao/upload/service/UploadService.class" />
+      <change beforePath="$PROJECT_DIR$/putao-user/putao-user-interface/pom.xml" afterPath="$PROJECT_DIR$/putao-user/putao-user-interface/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/putao-user/putao-user-interface/src/main/java/com/putao/user/pojo/User.java" afterPath="$PROJECT_DIR$/putao-user/putao-user-interface/src/main/java/com/putao/user/pojo/User.java" />
+      <change beforePath="$PROJECT_DIR$/putao-user/putao-user-interface/target/classes/com/putao/user/pojo/User.class" afterPath="$PROJECT_DIR$/putao-user/putao-user-interface/target/classes/com/putao/user/pojo/User.class" />
+      <change beforePath="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/PutaoUserApplication.java" afterPath="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/PutaoUserApplication.java" />
+      <change beforePath="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/controller/UserController.java" afterPath="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/service/UserService.java" afterPath="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/putao-user/putao-user-service/target/classes/com/putao/PutaoUserApplication.class" afterPath="$PROJECT_DIR$/putao-user/putao-user-service/target/classes/com/putao/PutaoUserApplication.class" />
+      <change beforePath="$PROJECT_DIR$/putao-user/putao-user-service/target/classes/com/putao/user/controller/UserController.class" afterPath="$PROJECT_DIR$/putao-user/putao-user-service/target/classes/com/putao/user/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/putao-user/putao-user-service/target/classes/com/putao/user/service/UserService.class" afterPath="$PROJECT_DIR$/putao-user/putao-user-service/target/classes/com/putao/user/service/UserService.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,108 +93,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/putao-auth/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/pom.xml">
+      <file leaf-file-name="CandyVideoDetailController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyVideoDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <caret line="34" column="115" lean-forward="false" selection-start-line="34" selection-start-column="115" selection-end-line="34" selection-end-column="115" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/auth/controller/AuthController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/pom.xml">
+      <file leaf-file-name="AuthService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/auth/service/AuthService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3480">
+              <caret line="154" column="35" lean-forward="false" selection-start-line="154" selection-start-column="35" selection-end-line="154" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseEntity.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE-sources.jar!/org/springframework/http/ResponseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5544">
+              <caret line="270" column="32" lean-forward="false" selection-start-line="270" selection-start-column="32" selection-end-line="270" selection-end-column="32" />
+              <folding>
+                <element signature="e#7844#7845#0" expanded="true" />
+                <element signature="e#7888#7889#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvocableHandlerMethod.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4440">
+              <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3768">
+              <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/putao-user/putao-user-interface/src/main/java/com/putao/user/pojo/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="552">
-              <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="15" />
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/resources/application.yml">
+      <file leaf-file-name="CandyGameDetailController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PutaoAuthApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/PutaoAuthApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JwtConstans.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/utils/JwtConstans.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/utils/ObjectUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JwtUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/utils/JwtUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="1560">
+              <caret line="74" column="39" lean-forward="false" selection-start-line="72" selection-start-column="3" selection-end-line="74" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RsaUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/utils/RsaUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-969">
-              <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/pojo/UserInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -166,8 +197,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -188,36 +219,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyVideoController.java" />
-        <option value="$PROJECT_DIR$/putao-common/src/main/java/com/putao/utils/BCrypt.java" />
-        <option value="$PROJECT_DIR$/putao-user/pom.xml" />
-        <option value="$PROJECT_DIR$/putao-user/putao-user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/putao-user/putao-user-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/putao-user/putao-user-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/putao-common/src/main/java/com/putao/utils/IdWorker.java" />
-        <option value="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/PutaoUserApplication.java" />
-        <option value="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/putao-user/putao-user-interface/src/main/java/com/putao/user/pojo/User.java" />
-        <option value="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/controller/demo.java" />
-        <option value="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/mapper/CandyVideoDetailMapper.java" />
-        <option value="$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyVideoDetail.java" />
-        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyVideoDetailController.java" />
-        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoDetailService.java" />
-        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoService.java" />
-        <option value="$PROJECT_DIR$/putao-gateway/src/main/java/com/putao/gateway/config/PutaoCorsConfiguration.java" />
-        <option value="$PROJECT_DIR$/putao-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/putao-upload/pom.xml" />
-        <option value="$PROJECT_DIR$/putao-upload/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/config/FastClientImporter.java" />
-        <option value="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/service/UploadService.java" />
-        <option value="$PROJECT_DIR$/putao-upload/src/test/java/com/putao/upload/test/FastDFSTest.java" />
-        <option value="$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/FilePath.java" />
         <option value="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/pojo/FilePath.java" />
         <option value="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/service/DeleteService.java" />
         <option value="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/DeleteController.java" />
-        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/PutaoItemApplication.java" />
         <option value="$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyGame.java" />
         <option value="$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyGameDetail.java" />
         <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyGameService.java" />
@@ -225,20 +229,47 @@
         <option value="$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyCartoon.java" />
         <option value="$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyCartoonDetail.java" />
         <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameController.java" />
-        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameDetailController.java" />
-        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyCartoonDetailController.java" />
         <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyCartoonService.java" />
         <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyCartoonDetailService.java" />
         <option value="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/config/PutaoCorsConfiguration.java" />
-        <option value="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/UploadController.java" />
         <option value="$PROJECT_DIR$/putao-auth/pom.xml" />
-        <option value="$PROJECT_DIR$/putao-auth/putao-auth-service/pom.xml" />
-        <option value="$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/PutaoAuthApplication.java" />
-        <option value="$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/utils/JwtConstans.java" />
-        <option value="$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/pojo/UserInfo.java" />
         <option value="$PROJECT_DIR$/putao-auth/putao-auth-common/pom.xml" />
+        <option value="$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/CookieUtils.java" />
+        <option value="$PROJECT_DIR$/putao-common/src/main/java/com/putao/utils/pojo/PageResult.java" />
+        <option value="$PROJECT_DIR$/putao-common/src/main/java/com/putao/utils/PageResult.java" />
+        <option value="$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/pojo/PageResult.java" />
+        <option value="$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/utils/CookieUtils.java" />
+        <option value="$PROJECT_DIR$/putao-common/pom.xml" />
+        <option value="$PROJECT_DIR$/putao-auth/putao-auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/putao-user/putao-user-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/putao-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/auth/config/JwtProperties.java" />
+        <option value="$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/auth/client/UserClient.java" />
+        <option value="$PROJECT_DIR$/putao-user/putao-user-interface/src/main/java/com/putao/user/api/UserApi.java" />
+        <option value="$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/pojo/UserInfo.java" />
+        <option value="$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/utils/JwtConstans.java" />
         <option value="$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/utils/JwtUtils.java" />
+        <option value="$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/auth/service/AuthService.java" />
+        <option value="$PROJECT_DIR$/putao-auth/putao-auth-common/src/test/java/com/putao/auth/test/JwtTest.java" />
+        <option value="$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/auth/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/service/UploadService.java" />
+        <option value="$PROJECT_DIR$/putao-upload/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyVideo.java" />
+        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameDetailController.java" />
+        <option value="$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/utils/IdWorker.java" />
+        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyCartoonDetailController.java" />
+        <option value="$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyVideoDetail.java" />
+        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoService.java" />
+        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoDetailService.java" />
+        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/PutaoItemApplication.java" />
+        <option value="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/PutaoUserApplication.java" />
+        <option value="$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyVideoDetailController.java" />
+        <option value="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/putao-user/putao-user-interface/src/main/java/com/putao/user/pojo/User.java" />
+        <option value="$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -273,10 +304,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=UTF-8" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="682" />
-    <option name="y" value="30" />
-    <option name="width" value="1244" />
-    <option name="height" value="953" />
+    <option name="x" value="25" />
+    <option name="width" value="1932" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -296,6 +326,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -313,20 +346,20 @@
               <item name="putao" type="b2602c69:ProjectViewProjectNode" />
               <item name="putao" type="462c0819:PsiDirectoryNode" />
               <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-common" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="putao" type="b2602c69:ProjectViewProjectNode" />
               <item name="putao" type="462c0819:PsiDirectoryNode" />
               <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-common" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="putao" type="b2602c69:ProjectViewProjectNode" />
               <item name="putao" type="462c0819:PsiDirectoryNode" />
               <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-common" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -334,7 +367,87 @@
               <item name="putao" type="b2602c69:ProjectViewProjectNode" />
               <item name="putao" type="462c0819:PsiDirectoryNode" />
               <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-common" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -342,61 +455,39 @@
             <path>
               <item name="putao" type="b2602c69:ProjectViewProjectNode" />
               <item name="putao" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-common" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item-interface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="putao" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="putao" type="b2602c69:ProjectViewProjectNode" />
               <item name="putao" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="putao" type="b2602c69:ProjectViewProjectNode" />
               <item name="putao" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="putao" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="putao" type="b2602c69:ProjectViewProjectNode" />
               <item name="putao" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="putao" type="b2602c69:ProjectViewProjectNode" />
               <item name="putao" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -404,25 +495,196 @@
             <path>
               <item name="putao" type="b2602c69:ProjectViewProjectNode" />
               <item name="putao" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="putao-auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="putao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="putao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="putao" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user" type="462c0819:PsiDirectoryNode" />
+              <item name="putao-user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -436,6 +698,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="last_opened_file_path" value="D:/nlh1996gameweb" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -446,6 +709,8 @@
       <recent name="com.putao.upload.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pthoutai\putao\putao-common\src\main\java\com\putao\common\utils" />
+      <recent name="D:\pthoutai\putao\putao-common\src\main\java\com\putao\common" />
       <recent name="D:\pthoutai\putao\putao-auth\putao-auth-common\src\main\java\com\putao\common\pojo" />
       <recent name="D:\pthoutai\putao\putao-auth\putao-auth-common\src\main\java\com\putao\common\utils" />
       <recent name="D:\pthoutai\putao\putao-common\src\main\java\com\putao\utils" />
@@ -467,9 +732,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.20087336" />
+    <option name="contentProportion" value="0.20718563" />
   </component>
-  <component name="RunManager" selected="JUnit.FastDFSTest.testDeleteImg">
+  <component name="RunManager" selected="JUnit.JwtTest.testGenerateToken">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -510,25 +775,6 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.putao.user.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.putao.user.controller.demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="putao-user-service" />
-      <envs />
-    </configuration>
     <configuration name="FastDFSTest.testDeleteImg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -554,31 +800,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FastDFSTest.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.putao.upload.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="putao-upload" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.putao.upload.test" />
-      <option name="MAIN_CLASS_NAME" value="com.putao.upload.test.FastDFSTest" />
-      <option name="METHOD_NAME" value="testUpload" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="FastDFSTest.testUploadAndCreateThumb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -592,6 +813,81 @@
       <option name="PACKAGE_NAME" value="com.putao.upload.test" />
       <option name="MAIN_CLASS_NAME" value="com.putao.upload.test.FastDFSTest" />
       <option name="METHOD_NAME" value="testUploadAndCreateThumb" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="JwtTest.testGenerateToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.putao.auth.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="putao-auth-common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.putao.auth.test" />
+      <option name="MAIN_CLASS_NAME" value="com.putao.auth.test.JwtTest" />
+      <option name="METHOD_NAME" value="testGenerateToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="JwtTest.testParseToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.putao.auth.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="putao-auth-common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.putao.auth.test" />
+      <option name="MAIN_CLASS_NAME" value="com.putao.auth.test.JwtTest" />
+      <option name="METHOD_NAME" value="testParseToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="JwtTest.testRsa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.putao.auth.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="putao-auth-common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.putao.auth.test" />
+      <option name="MAIN_CLASS_NAME" value="com.putao.auth.test.JwtTest" />
+      <option name="METHOD_NAME" value="testRsa" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -630,6 +926,12 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="PutaoAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.putao.PutaoAuthApplication" />
+      <module name="putao-auth-service" />
+      <envs />
     </configuration>
     <configuration name="PutaoGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -696,29 +998,35 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="10">
+    <list size="12">
       <item index="0" class="java.lang.String" itemvalue="Application.PutaoRegistryApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.PutaoUploadApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.PutaoRegistryApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.PutaoGatewayApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.PutaoItemApplication" />
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.PutaoUserApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Application.demo" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testUpload" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testUploadAndCreateThumb" />
-      <item index="9" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testDeleteImg" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.PutaoAuthApplication" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testUploadAndCreateThumb" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testDeleteImg" />
+      <item index="9" class="java.lang.String" itemvalue="JUnit.JwtTest.testRsa" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.JwtTest.testGenerateToken" />
+      <item index="11" class="java.lang.String" itemvalue="JUnit.JwtTest.testParseToken" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testDeleteImg" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testUploadAndCreateThumb" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testUpload" />
-        <item index="3" class="java.lang.String" itemvalue="Application.demo" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JwtTest.testGenerateToken" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JwtTest.testParseToken" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.JwtTest.testRsa" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testDeleteImg" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FastDFSTest.testUploadAndCreateThumb" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -760,29 +1068,51 @@
       <workItem from="1598219619959" duration="32311000" />
       <workItem from="1598309154615" duration="3543000" />
       <workItem from="1598336794852" duration="672000" />
-      <workItem from="1598366235116" duration="1835000" />
+      <workItem from="1598366235116" duration="6990000" />
+      <workItem from="1598377255306" duration="15381000" />
+      <workItem from="1598411754176" duration="13933000" />
+      <workItem from="1598487546274" duration="16531000" />
+      <workItem from="1598517916630" duration="828000" />
+      <workItem from="1598564978804" duration="5894000" />
+      <workItem from="1598645832283" duration="4911000" />
+      <workItem from="1598662261535" duration="448000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FastDFSTest_testDeleteImg - 2020.08.24 at 09h 54m 35s.xml">
-      <configuration name="FastDFSTest.testDeleteImg" configurationId="JUnit" />
+    <history-entry file="JwtTest_testGenerateToken - 2020.08.27 at 14h 08m 10s.xml">
+      <configuration name="JwtTest.testGenerateToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FastDFSTest_testDeleteImg - 2020.08.24 at 09h 55m 10s.xml">
-      <configuration name="FastDFSTest.testDeleteImg" configurationId="JUnit" />
+    <history-entry file="JwtTest_testGenerateToken - 2020.08.27 at 14h 08m 54s.xml">
+      <configuration name="JwtTest.testGenerateToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FastDFSTest_testDeleteImg - 2020.08.24 at 10h 00m 24s.xml">
-      <configuration name="FastDFSTest.testDeleteImg" configurationId="JUnit" />
+    <history-entry file="JwtTest_testGenerateToken - 2020.08.27 at 14h 09m 38s.xml">
+      <configuration name="JwtTest.testGenerateToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FastDFSTest_testUpload - 2020.08.24 at 09h 27m 24s.xml">
-      <configuration name="FastDFSTest.testUpload" configurationId="JUnit" />
+    <history-entry file="JwtTest_testGenerateToken - 2020.08.27 at 14h 09m 42s.xml">
+      <configuration name="JwtTest.testGenerateToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FastDFSTest_testUploadAndCreateThumb - 2020.08.24 at 09h 35m 08s.xml">
-      <configuration name="FastDFSTest.testUploadAndCreateThumb" configurationId="JUnit" />
+    <history-entry file="JwtTest_testParseToken - 2020.08.27 at 09h 59m 20s.xml">
+      <configuration name="JwtTest.testParseToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest_testParseToken - 2020.08.27 at 10h 00m 26s.xml">
+      <configuration name="JwtTest.testParseToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest_testParseToken - 2020.08.27 at 10h 25m 58s.xml">
+      <configuration name="JwtTest.testParseToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest_testParseToken - 2020.08.27 at 14h 08m 37s.xml">
+      <configuration name="JwtTest.testParseToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest_testParseToken - 2020.08.27 at 14h 09m 17s.xml">
+      <configuration name="JwtTest.testParseToken" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JwtTest_testRsa - 2020.08.26 at 00h 29m 44s.xml">
+      <configuration name="JwtTest.testRsa" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162939000" />
+    <option name="totallyTimeSpent" value="226020000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -794,10 +1124,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="682" y="30" width="1244" height="953" extended-state="0" />
+    <frame x="25" y="0" width="1932" height="1024" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3567384" sideWeight="0.086280815" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24777183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -807,17 +1137,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18662351" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37718278" sideWeight="0.9137192" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5605889" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32868022" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19539249" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29671574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3282887" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25698924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -826,6 +1155,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2910361" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -838,75 +1168,74 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="74" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/service/UserService.java</url>
+          <line>154</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/service/UserService.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="129" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="74" column="39" lean-forward="true" selection-start-line="72" selection-start-column="3" selection-end-line="74" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyCartoonDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoDetailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="744">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoService.java">
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/putao-gateway/pom.xml">
+    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/auth/service/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1392">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/auth/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_162/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1413">
-          <caret line="122" column="11" lean-forward="false" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.1-RELEASE/fastdfs-client-1.26.1-RELEASE.jar!/com/github/tobato/fastdfs/service/FastFileStorageClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/tobato/fastdfs-client/1.26.1-RELEASE/fastdfs-client-1.26.1-RELEASE-sources.jar!/com/github/tobato/fastdfs/service/FastFileStorageClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="44" column="11" lean-forward="false" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-upload/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/config/FastClientImporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="1560">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -918,212 +1247,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-upload/src/test/java/com/putao/upload/test/FastDFSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="56" column="90" lean-forward="false" selection-start-line="56" selection-start-column="90" selection-end-line="56" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/FilePath.java" />
-    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/pojo/FilePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/service/DeleteService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/DeleteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/mapper/CandyGameDetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/PutaoUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="26" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/PutaoItemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="e#680#681#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyGameDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1107">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyCartoon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyCartoonDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyCartoonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyCartoonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyCartoonDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1536">
-          <caret line="76" column="64" lean-forward="false" selection-start-line="76" selection-start-column="64" selection-end-line="76" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyGameService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyGameDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-gateway/src/main/java/com/putao/gateway/config/PutaoCorsConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-gateway/src/main/java/com/putao/PutaoGatewayApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-gateway/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/config/FastClientImporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyCartoonDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/service/UploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="29" selection-end-column="46" />
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1136,96 +1263,344 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/UploadController.java">
+    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/test/java/com/putao/auth/test/JwtTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="672">
+          <caret line="35" column="87" lean-forward="false" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/putao-auth/pom.xml">
+    <entry file="file://$PROJECT_DIR$/putao-user/putao-user-interface/src/main/java/com/putao/user/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1128">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/PutaoAuthApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/utils/ObjectUtils.java">
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/DeleteController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding />
+          <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/pojo/UserInfo.java">
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/utils/JwtConstans.java">
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/service/UploadService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="984">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/test/java/com/putao/auth/test/JwtTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="35" column="87" lean-forward="false" selection-start-line="35" selection-start-column="87" selection-end-line="35" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/PutaoUploadApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/utils/JwtUtils.java">
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/config/FastClientImporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/config/PutaoCorsConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/DeleteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="66" lean-forward="false" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-upload/src/main/java/com/putao/upload/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyVideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="24" />
+          <caret line="57" column="31" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-common/src/main/java/com/putao/common/utils/IdWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyGameDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyCartoonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#690#691#0" expanded="false" />
+            <element signature="e#724#725#0" expanded="false" />
+            <element signature="e#746#747#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyVideoDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="e#731#732#0" expanded="false" />
+            <element signature="e#750#751#0" expanded="false" />
+            <element signature="e#784#785#0" expanded="false" />
+            <element signature="e#806#807#0" expanded="false" />
+            <element signature="e#843#844#0" expanded="false" />
+            <element signature="e#872#873#0" expanded="false" />
+            <element signature="e#926#927#0" expanded="false" />
+            <element signature="e#968#969#0" expanded="false" />
+            <element signature="e#1355#1356#0" expanded="false" />
+            <element signature="e#1380#1381#0" expanded="false" />
+            <element signature="e#1426#1427#0" expanded="false" />
+            <element signature="e#1460#1461#0" expanded="false" />
+            <element signature="e#1491#1492#0" expanded="false" />
+            <element signature="e#1514#1515#0" expanded="false" />
+            <element signature="e#1556#1557#0" expanded="false" />
+            <element signature="e#1586#1587#0" expanded="false" />
+            <element signature="e#1619#1620#0" expanded="false" />
+            <element signature="e#1644#1645#0" expanded="false" />
+            <element signature="e#1690#1691#0" expanded="false" />
+            <element signature="e#1724#1725#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyGameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="48" column="53" lean-forward="true" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyGameDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/PutaoUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/PutaoItemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/service/CandyVideoDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java/com/putao/item/pojo/CandyCartoonDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyCartoonDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyGameDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="74" column="39" lean-forward="false" selection-start-line="72" selection-start-column="3" selection-end-line="74" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java/com/putao/common/utils/RsaUtils.java">
+    <entry file="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java/com/putao/item/controller/CandyVideoDetailController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="42" />
+        <state relative-caret-position="600">
+          <caret line="34" column="115" lean-forward="false" selection-start-line="34" selection-start-column="115" selection-end-line="34" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0.jar!/feign/ReflectiveFeign.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="352" column="0" lean-forward="false" selection-start-line="352" selection-start-column="0" selection-end-line="352" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4440">
+          <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-user/putao-user-interface/src/main/java/com/putao/user/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3768">
+          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE-sources.jar!/org/springframework/http/ResponseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5544">
+          <caret line="270" column="32" lean-forward="false" selection-start-line="270" selection-start-column="32" selection-end-line="270" selection-end-column="32" />
+          <folding>
+            <element signature="e#7844#7845#0" expanded="true" />
+            <element signature="e#7888#7889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java/com/putao/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3480">
+          <caret line="154" column="35" lean-forward="false" selection-start-line="154" selection-start-column="35" selection-end-line="154" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="175" column="2" lean-forward="false" selection-start-line="175" selection-start-column="2" selection-end-line="175" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/auth/service/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java/com/putao/auth/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1282,7 +1657,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>putao-item</last-edited>
+          <last-edited>putao-auth-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,6 +1,6 @@
 package com.putao.item.controller;
 
-import com.putao.common.PageResult;
+import com.putao.common.pojo.PageResult;
 import com.putao.item.pojo.CandyGame;
 import com.putao.item.service.CandyGameService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,8 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.*;
-
-import javax.persistence.Id;
 
 /**
  * @version 1.0

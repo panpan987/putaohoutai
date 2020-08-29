@@ -1,4 +1,4 @@
-package com.putao.utils;
+package com.putao.common.utils;
 
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;

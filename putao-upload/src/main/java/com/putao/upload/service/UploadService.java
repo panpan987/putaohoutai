@@ -53,7 +53,6 @@ public class UploadService {
       StorePath storePath = this.storageClient.uploadFile(file.getInputStream(), file.getSize(), ext, null);
 
 
-
       //返回url,进行回显
       //return "http://image.putao.com/" + originalFilename;
       return "http://image.putao.com/" + storePath.getFullPath();
