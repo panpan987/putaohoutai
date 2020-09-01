@@ -29,8 +29,8 @@ public class CandyGameDetailController {
   @Autowired
   private IdWorker idWorker;
 
-  @GetMapping("{candydetailid}")
-  public ResponseEntity<CandyGameDetail> queryCandyGameDetailByCandyGameId(@PathVariable("candydetailid")String candygameid) {
+  @GetMapping("{candyid}")
+  public ResponseEntity<CandyGameDetail> queryCandyGameDetailByCandyGameId(@PathVariable("candyid")String candygameid) {
     if (StringUtils.isBlank(candygameid)) {
       return ResponseEntity.badRequest().build();
     }

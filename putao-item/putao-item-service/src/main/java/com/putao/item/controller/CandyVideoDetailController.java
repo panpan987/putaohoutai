@@ -1,7 +1,6 @@
 package com.putao.item.controller;
 
 import com.putao.common.utils.IdWorker;
-import com.putao.item.pojo.CandyGameDetail;
 import com.putao.item.pojo.CandyVideo;
 import com.putao.item.pojo.CandyVideoDetail;
 import com.putao.item.service.CandyVideoDetailService;
@@ -29,9 +28,8 @@ public class CandyVideoDetailController {
   @Autowired
   private IdWorker idWorker;
 
-
-  @GetMapping("{candydetailid}")
-  public ResponseEntity<CandyVideoDetail> queryCandyVideoDetailByCandyVideoId(@PathVariable("candydetailid") Integer candyVideoId) {
+  @GetMapping("{candyid}")
+  public ResponseEntity<CandyVideoDetail> queryCandyVideoDetailByCandyVideoId(@PathVariable("candyid") String candyVideoId) {
     CandyVideoDetail candyVideoDetail = this.candyVideoDetailService.queryCandyVideoDetailByCandyVideoId(candyVideoId);
     if (candyVideoDetail == null) {
       return ResponseEntity.notFound().build();
@@ -63,7 +61,6 @@ public class CandyVideoDetailController {
     Boolean b2 = this.candyVideoDetailService.insertCandyVideoDetail(minivideo);
 
     return ResponseEntity.ok(b1 && b2);
-
 
   }
 

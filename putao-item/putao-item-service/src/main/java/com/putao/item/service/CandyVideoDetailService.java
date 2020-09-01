@@ -4,6 +4,7 @@ import com.putao.item.mapper.CandyGameDetailMapper;
 import com.putao.item.mapper.CandyVideoDetailMapper;
 import com.putao.item.pojo.CandyGameDetail;
 import com.putao.item.pojo.CandyVideoDetail;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,11 +23,11 @@ public class CandyVideoDetailService {
   private CandyVideoDetailMapper candyVideoDetailMapper;
 
 
-  public CandyVideoDetail queryCandyVideoDetailByCandyVideoId(Integer candyVideoId) {
+  public CandyVideoDetail queryCandyVideoDetailByCandyVideoId(String candyVideoId) {
     //初始化查询对象
     Example example = new Example(CandyVideoDetail.class);
     Example.Criteria criteria = example.createCriteria();
-    if (candyVideoId != null && candyVideoId > 0) {
+    if (!StringUtils.isBlank(candyVideoId)) {
       criteria.andEqualTo("candyVideoId",candyVideoId);
     }
 
