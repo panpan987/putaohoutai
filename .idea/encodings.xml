@@ -4,17 +4,27 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-auth/putao-auth-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/putao-auth/putao-auth-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-auth/putao-auth-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/putao-auth/putao-auth-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/putao-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/putao-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-item" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-item/putao-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/putao-item/putao-item-interface/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-item/putao-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/putao-item/putao-item-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/putao-registry/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/putao-upload/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-user/putao-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/putao-user/putao-user-interface/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/putao-user/putao-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/putao-user/putao-user-service/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

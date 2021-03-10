@@ -9,7 +9,6 @@ public class UserInfo {
 
     private String username;
 
-
     public UserInfo() {
     }
 

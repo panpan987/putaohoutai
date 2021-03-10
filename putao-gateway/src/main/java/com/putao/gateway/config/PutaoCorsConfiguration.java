@@ -19,8 +19,12 @@ public class PutaoCorsConfiguration {
 
     CorsConfiguration configuration = new CorsConfiguration();
 
-    configuration.addAllowedOrigin("http://www.putao.com");
-    configuration.addAllowedOrigin("http://manage.putao.com");
+    configuration.addAllowedOrigin("http://putao6379.top");
+    configuration.addAllowedOrigin("http://www.putao6379.top");
+    configuration.addAllowedOrigin("http://manage.putao6379.top");
+    configuration.addAllowedOrigin("http://pilibili.cn");
+    configuration.addAllowedOrigin("http://www.pilibili.cn");
+    configuration.addAllowedOrigin("http://manage.pilibili.cn");
     configuration.setAllowCredentials(true);
     configuration.addAllowedMethod("*");
     configuration.addAllowedHeader("*");

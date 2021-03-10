@@ -5,6 +5,7 @@ import com.putao.user.pojo.User;
 import com.putao.common.utils.utils.BCrypt;
 import com.putao.common.utils.IdWorker;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
@@ -29,21 +30,17 @@ public class UserService {
   private IdWorker idWorker;
 
   /**
-   * 校验用户名是否可用(有没有重复)
+   * 校验该用户名的user是否已存在
    *
-   * @param user
+   * @param username
    * @return
    */
-  public Boolean checkUser(User user) {
-
+  public Boolean checkUser(String username) {
     Example example = new Example(User.class);
     Example.Criteria criteria = example.createCriteria();
-    if (user != null) {
-      criteria.andEqualTo("username",user.getUsername());
-    }
-    User user1 = userMapper.selectOneByExample(example);
-    //若用户数量为0,返回true,用户名不存在,可以注册
-    return user1 == null;
+    criteria.andEqualTo("username", username);
+
+    return this.userMapper.selectOneByExample(example) == null;
   }
 
 
@@ -53,13 +50,28 @@ public class UserService {
    * @return
    */
   public Boolean checkLogin(User user) {
-    //根据用户名查询用户信息
-    User userMatchUserName = this.findUserByCondition(user);
 
-    String password = user.getPassword();
-    //判断密码对不对,并返回
-    return BCrypt.checkpw(password, userMatchUserName.getPassword());
+    Example example = new Example(User.class);
+    Example.Criteria criteria = example.createCriteria();
+    criteria.andEqualTo("username",user.getUsername());
 
+    User u = this.userMapper.selectOneByExample(example);
+    //不能根据用户名查询到用户
+    if (u == null) {
+      return false;
+    }
+
+    return BCrypt.checkpw(user.getPassword(), u.getPassword());
+
+  }
+
+  /**
+   * 根据id查询用户信息
+   * @param id
+   * @return
+   */
+  public User findUserById(String id) {
+    return this.userMapper.selectByPrimaryKey(id);
   }
 
    /**
@@ -69,6 +81,11 @@ public class UserService {
    * @return
    */
   public Boolean addUser(User user) {
+    //再次检查是否同名
+    Boolean hasUser = this.checkUser(user.getUsername());
+    if (!hasUser) {
+      return false;
+    }
     //设置id
     user.setId(idWorker.nextId() + "");
     //生成盐
@@ -85,30 +102,6 @@ public class UserService {
 
   }
 
-  /**
-   * 根据id删除用户
-   *
-   * @param userId
-   * @return
-   */
-  public Boolean deleteUserById(String userId) {
-
-    return this.userMapper.deleteByPrimaryKey(userId) == 1;
-  }
-
-  /**
-   * 根据用户名删除用户
-   *
-   * @param username
-   * @return
-   */
-  public boolean deleteUserByUsername(String username) {
-    Example example = new Example(User.class);
-    Example.Criteria criteria = example.createCriteria();
-    criteria.andEqualTo("username", username);
-
-    return this.userMapper.deleteByExample(example) == 1;
-  }
 
   /**
    * 根据id修改用户
@@ -121,23 +114,6 @@ public class UserService {
     return this.userMapper.updateByPrimaryKeySelective(user) == 1;
   }
 
-
-  /**
-   * 根据条件查询用户(此时id不能为null)
-   *
-   * @param user
-   * @return
-   */
-  public User findUserByCondition(User user) {
-    Example example = new Example(User.class);
-    Example.Criteria criteria = example.createCriteria();
-    if (!StringUtils.isEmpty(user.getUsername()))
-      criteria.andEqualTo("username", user.getUsername());
-    if (!StringUtils.isEmpty(user.getId())){
-      criteria.andEqualTo("id", user.getId());
-    }
-    return this.userMapper.selectOneByExample(example);
-  }
 
 
   /**
@@ -158,4 +134,6 @@ public class UserService {
       return null;
     }
   }
+
+
 }

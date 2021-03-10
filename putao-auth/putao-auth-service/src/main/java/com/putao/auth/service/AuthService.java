@@ -37,7 +37,6 @@ public class AuthService {
 
   }
 
-
   /**
    * 抽取生成token的方法
    * @param user

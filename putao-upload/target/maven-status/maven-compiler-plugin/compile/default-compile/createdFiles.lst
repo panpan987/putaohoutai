@@ -1,0 +1,8 @@
+com\putao\upload\service\DeleteService.class
+com\putao\upload\config\PutaoCorsConfiguration.class
+com\putao\pojo\FilePath.class
+com\putao\upload\config\FastClientImporter.class
+com\putao\PutaoUploadApplication.class
+com\putao\upload\controller\DeleteController.class
+com\putao\upload\service\UploadService.class
+com\putao\upload\controller\UploadController.class

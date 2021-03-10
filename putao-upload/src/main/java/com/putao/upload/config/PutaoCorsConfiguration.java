@@ -19,8 +19,13 @@ public class PutaoCorsConfiguration {
 
     CorsConfiguration configuration = new CorsConfiguration();
     //允许跨域的域名,如果要携带cookie,不能写*
-    configuration.addAllowedOrigin("http://manage.putao.com");
-    configuration.addAllowedOrigin("http://www.putao.com");
+    configuration.addAllowedOrigin("http://manage.putao6379.top");
+    configuration.addAllowedOrigin("http://www.putao6379.top");
+    configuration.addAllowedOrigin("http://putao6379.top");
+
+    configuration.addAllowedOrigin("http://pilibili.cn");
+    configuration.addAllowedOrigin("http://www.pilibili.cn");
+    configuration.addAllowedOrigin("http://manage.pilibili.cn");
     configuration.setAllowCredentials(true);
     configuration.addAllowedMethod("*");//代表所有的请求方法...
     configuration.addAllowedHeader("*");//允许携带任何头信息

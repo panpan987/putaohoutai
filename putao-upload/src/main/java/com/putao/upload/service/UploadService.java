@@ -55,7 +55,7 @@ public class UploadService {
 
       //返回url,进行回显
       //return "http://image.putao.com/" + originalFilename;
-      return "http://image.putao.com/" + storePath.getFullPath();
+      return "http://image.pilibili.cn/" + storePath.getFullPath();
     } catch (IOException e) {
       LOGGER.info("服务器内部错误: " + originalFilename);
       e.printStackTrace();

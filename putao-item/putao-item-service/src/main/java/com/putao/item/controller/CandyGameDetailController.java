@@ -75,4 +75,5 @@ public class CandyGameDetailController {
     return ResponseEntity.ok(b1 && b2);
   }
 
+
 }

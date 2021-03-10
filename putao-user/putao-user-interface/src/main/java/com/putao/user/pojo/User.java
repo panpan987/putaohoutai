@@ -1,9 +1,5 @@
 package com.putao.user.pojo;
 
-import com.fasterxml.jackson.annotation.JsonFilter;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -81,15 +77,4 @@ public class User implements Serializable {
     this.gensalt = gensalt;
   }
 
-  @Override
-  public String toString() {
-    return "User{" +
-            "id='" + id + '\'' +
-            ", username='" + username + '\'' +
-            ", password='" + password + '\'' +
-            ", created=" + created +
-            ", avatar='" + avatar + '\'' +
-            ", gensalt='" + gensalt + '\'' +
-            '}';
-  }
 }

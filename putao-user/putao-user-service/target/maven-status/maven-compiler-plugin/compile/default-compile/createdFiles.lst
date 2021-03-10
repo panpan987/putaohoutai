@@ -1,0 +1,7 @@
+com\putao\PutaoUserApplication.class
+com\putao\user\mapper\UserMapper.class
+com\putao\user\service\CommentService.class
+com\putao\user\service\UserService.class
+com\putao\user\controller\UserController.class
+com\putao\user\controller\CommentController.class
+com\putao\user\mapper\CommentDao.class

@@ -6,8 +6,8 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:10086/eureka
-    registry-fetch-interval-seconds: 5
+      defaultZone: http://127.0.0.1:9090/eureka
+#    registry-fetch-interval-seconds: 30
 zuul:
   prefix: /api
   routes:
@@ -16,3 +16,10 @@ zuul:
     auth-service: /auth/**
   add-host-header: true
   sensitive-headers:  # 覆盖默认敏感头信息
+  host:
+    connect-timeout-millis:  15000
+    socket-timeout-millis: 12000
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+

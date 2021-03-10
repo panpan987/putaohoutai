@@ -42,6 +42,10 @@ public class CandyGameDetail implements Serializable {
 
   private Date createTime;  //candy创建时间
 
+  private Integer reading;  //浏览量
+
+  private Integer comment;  //评论数
+
   public String getId() {
     return id;
   }
@@ -98,13 +102,6 @@ public class CandyGameDetail implements Serializable {
     this.resourceCode = resourceCode;
   }
 
-//  public Long getCommentId() {
-//    return commentId;
-//  }
-//
-//  public void setCommentId(Long commentId) {
-//    this.commentId = commentId;
-//  }
 
   public String getTitle() {
     return title;
@@ -136,5 +133,21 @@ public class CandyGameDetail implements Serializable {
 
   public void setCreateTime(Date createTime) {
     this.createTime = createTime;
+  }
+
+  public Integer getReading() {
+    return reading;
+  }
+
+  public void setReading(Integer reading) {
+    this.reading = reading;
+  }
+
+  public Integer getComment() {
+    return comment;
+  }
+
+  public void setComment(Integer comment) {
+    this.comment = comment;
   }
 }

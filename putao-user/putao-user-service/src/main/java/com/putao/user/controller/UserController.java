@@ -2,14 +2,14 @@ package com.putao.user.controller;
 
 import com.putao.user.pojo.User;
 import com.putao.user.service.UserService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.util.CollectionUtils;
-import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @version 1.0
@@ -23,23 +23,23 @@ public class UserController {
   private UserService userService;
 
   /**
-   * 校验用户名是否可用(有没有重复)
-   * @param user
+   * 校验该用户名的user是否已存在
+   * @param username
    * @return
    */
-  //若用户数量为0,返回true,用户名不存在,可以注册
-  @PostMapping("check")
-  public ResponseEntity<Boolean> checkUser(@RequestBody User user){
-    if (user == null) {
-      return ResponseEntity.badRequest().build();
+  //若返回true,用户名不存在,可以注册
+  @GetMapping("check/{username}")
+  public ResponseEntity<Boolean> checkUser(@PathVariable("username") String username){
+    if (StringUtils.isBlank(username)) {
+      return ResponseEntity.ok(false);
     }
-    Boolean b = this.userService.checkUser(user);
+    Boolean b = this.userService.checkUser(username);
 
     return ResponseEntity.ok(b);
   }
 
   /**
-   * 查询用户名和密码查询是否匹配,是的话前台就会登录成功
+   * 查询用户名和密码查询是否匹配,是的话前台就会登录成功(post)
    * @param user
    * @return
    */
@@ -49,11 +49,24 @@ public class UserController {
       return ResponseEntity.badRequest().build();
     }
     Boolean b = this.userService.checkLogin(user);
-    if (b == null) {
-      return ResponseEntity.notFound().build();
-    }
+
     return ResponseEntity.ok(b);
   }
+
+  /**
+   * 根据id查询用户信息
+   * @param id
+   * @return
+   */
+  @PostMapping("findUserById/{id}")
+  public ResponseEntity<User> findUserById(@PathVariable("id") String id) {
+    if (StringUtils.isBlank(id)) {
+      return ResponseEntity.ok(null);
+    }
+    User user = this.userService.findUserById(id);
+    return ResponseEntity.ok(user);
+  }
+
 
   /**
    * 增加用户
@@ -65,44 +78,17 @@ public class UserController {
     if (user == null) {
       return ResponseEntity.badRequest().build();
     }
+    Lock lock = new ReentrantLock();
+    lock.lock();
+
     Boolean b = this.userService.addUser(user);
 
+    lock.unlock();
     return ResponseEntity.ok(b);
   }
 
-  /**
-   * 根据id删除用户
-   * @param userId
-   * @return
-   */
-  @DeleteMapping("delete/{userId}")
-  public ResponseEntity<Boolean> deleteUserById(@PathVariable("userId")String userId) {
-    if (StringUtils.isEmpty(userId)) {
-      return ResponseEntity.badRequest().build();
-    }
-    Boolean deletedId = this.userService.deleteUserById(userId);
-    if (deletedId == null) {
-      return ResponseEntity.notFound().build();
-    }
-    //无论删除成功与否,把true false 返回前端
-    return ResponseEntity.ok(deletedId);
-  }
 
-  /**
-   * 根据用户名删除用户
-   * @param username
-   * @return
-   */
-  @DeleteMapping("delete")
-  public ResponseEntity<Boolean> deleteUserByUsername(@RequestParam("username")String username) {
-    if (StringUtils.isEmpty(username)) {
-      return ResponseEntity.badRequest().build();
-    }
-    Boolean b = this.userService.deleteUserByUsername(username);
 
-    return ResponseEntity.ok(b);
-
-  }
 
   /**
    * 根据id修改用户
@@ -122,25 +108,9 @@ public class UserController {
     return ResponseEntity.ok(b);
   }
 
-  /**
-   * 根据条件查询用户(id或用户名)
-   * @param user
-   * @return
-   */
-  @PostMapping("findUserByCondition")
-  public ResponseEntity<User> findUserByCondition(@RequestBody User user) {
-    if (user == null) {
-      return ResponseEntity.badRequest().build();
-    }
-    User u = this.userService.findUserByCondition(user);
-    if (u == null) {
-      return ResponseEntity.notFound().build();
-    }
-    return ResponseEntity.ok(u);
-  }
 
   /**
-   * 根据用户名的密码查询用户信息
+   * 根据用户名的密码查询用户信息(get???)
    * @param username
    * @param password
    * @return

@@ -33,7 +33,7 @@ public class AuthController {
 
   /**
    * 每次登录都会生成token,覆盖原来的token,存入cookie
-   *
+   * 用户名和密码配对，则生成token
    * @param username
    * @param password
    * @param request
@@ -64,20 +64,15 @@ public class AuthController {
    * @throws Exception
    */
   @GetMapping("verify")
-  public ResponseEntity<UserInfo> verify(@CookieValue("PT_TOKEN") String token) throws Exception {
+  public ResponseEntity<UserInfo> verify(@CookieValue(value = "PT_TOKEN") String token) throws Exception {
 
-    try {
       //通过jwt工具类使用公钥解析jwt
       UserInfo user = JwtUtils.getInfoFromToken(token, this.jwtProperties.getPublicKey());
 
-      if (user == null) {
-        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
-      }
+      //无论user是否为null都返回ok,防止页面报错
+
       return ResponseEntity.ok(user);
-    } catch (Exception e) {
-      e.printStackTrace();
-    }
-    return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+
   }
 
   @DeleteMapping("exit")

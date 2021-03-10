@@ -18,6 +18,7 @@ public class CandyCarouserService {
   @Autowired
   private CandyCarouserMapper candyCarouserMapper;
 
+
   public List<CandyCarouser> findAllCandyCarouser() {
     return this.candyCarouserMapper.selectAll();
   }

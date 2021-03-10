@@ -2,7 +2,7 @@ package com.putao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+//import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * @version 1.0
@@ -10,7 +10,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @create: 2020-08-14 14:56
  **/
 @SpringBootApplication
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 public class PutaoUploadApplication {
 
   public static void main(String[] args) {

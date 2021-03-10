@@ -1,19 +1,26 @@
 server:
-  port: 8085
+  port: 10020
+
 spring:
   application:
     name: user-service
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/pt
+    url: jdbc:mysql://xx.xx.xx.xx:3306/putao
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+  data:
+    mongodb:
+      host: xx.xx.xx.xx
+      database: comment
+  redis:
+    host: xx.xx.xx.xx
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:10086/eureka
-  instance:
-    lease-renewal-interval-in-seconds: 5
-    lease-expiration-duration-in-seconds: 15
+      defaultZone: http://127.0.0.1:9090/eureka
+#  instance:
+#    lease-renewal-interval-in-seconds: 30
+#    lease-expiration-duration-in-seconds: 90
 mybatis:
   type-aliases-package: com.putao.user.pojo

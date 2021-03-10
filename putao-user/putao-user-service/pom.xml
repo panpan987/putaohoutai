@@ -42,10 +42,6 @@
       <artifactId>pagehelper-spring-boot-starter</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-    </dependency>
-    <dependency>
       <groupId>com.putao.user</groupId>
       <artifactId>putao-user-interface</artifactId>
       <version>1.0.0-SNAPSHOT</version>
@@ -55,7 +51,28 @@
       <artifactId>putao-common</artifactId>
       <version>1.0.0-SNAPSHOT</version>
     </dependency>
+    <!--评论需要mongoDB，内存不足，就不再创建新的微服务了-->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-mongodb</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-redis</artifactId>
+    </dependency>
   </dependencies>
+
+
+  <build>
+    <finalName>putao-user-service</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
 
 
 </project>

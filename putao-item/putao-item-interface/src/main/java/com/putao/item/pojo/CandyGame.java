@@ -29,6 +29,12 @@ public class CandyGame implements Serializable {
 
   private String upAvatar; //up头像
 
+  private Integer reading;  //浏览量
+
+  private Integer comment;  //评论数
+
+  private Integer hot;  //热度
+
   public String getId() {
     return id;
   }
@@ -75,5 +81,44 @@ public class CandyGame implements Serializable {
 
   public void setUpAvatar(String upAvatar) {
     this.upAvatar = upAvatar;
+  }
+
+  public Integer getReading() {
+    return reading;
+  }
+
+  public void setReading(Integer reading) {
+    this.reading = reading;
+  }
+
+  public Integer getComment() {
+    return comment;
+  }
+
+  public void setComment(Integer comment) {
+    this.comment = comment;
+  }
+
+  public Integer getHot() {
+    return hot;
+  }
+
+  public void setHot(Integer hot) {
+    this.hot = hot;
+  }
+
+  @Override
+  public String toString() {
+    return "CandyGame{" +
+            "id='" + id + '\'' +
+            ", title='" + title + '\'' +
+            ", preImage='" + preImage + '\'' +
+            ", createTime=" + createTime +
+            ", upName='" + upName + '\'' +
+            ", upAvatar='" + upAvatar + '\'' +
+            ", reading=" + reading +
+            ", comment=" + comment +
+            ", hot=" + hot +
+            '}';
   }
 }
