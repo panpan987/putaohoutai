@@ -6,21 +6,47 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="putao-common" />
-        <module name="putao-gateway" />
-        <module name="putao-item-interface" />
-        <module name="putao-item-service" />
         <module name="putao-registry" />
+        <module name="putao-upload" />
+        <module name="putao-auth-service" />
+        <module name="putao-common" />
+        <module name="putao-auth-common" />
+        <module name="putao-gateway" />
+        <module name="putao-item-service" />
+        <module name="putao-user-interface" />
+        <module name="putao-item-interface" />
+        <module name="putao-user-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="putao" target="1.8" />
+      <module name="putao-auth" target="1.8" />
+      <module name="putao-auth-common" target="1.8" />
+      <module name="putao-auth-service" target="1.8" />
       <module name="putao-common" target="1.8" />
       <module name="putao-gateway" target="1.8" />
       <module name="putao-item" target="1.8" />
       <module name="putao-item-interface" target="1.8" />
       <module name="putao-item-service" target="1.8" />
       <module name="putao-registry" target="1.8" />
+      <module name="putao-upload" target="1.8" />
+      <module name="putao-user" target="1.8" />
+      <module name="putao-user-interface" target="1.8" />
+      <module name="putao-user-service" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="putao-auth-common" options="-parameters" />
+      <module name="putao-auth-service" options="-parameters" />
+      <module name="putao-common" options="-parameters" />
+      <module name="putao-gateway" options="-parameters" />
+      <module name="putao-item-interface" options="-parameters" />
+      <module name="putao-item-service" options="-parameters" />
+      <module name="putao-registry" options="-parameters" />
+      <module name="putao-upload" options="-parameters" />
+      <module name="putao-user-interface" options="-parameters" />
+      <module name="putao-user-service" options="-parameters" />
+    </option>
   </component>
 </project>

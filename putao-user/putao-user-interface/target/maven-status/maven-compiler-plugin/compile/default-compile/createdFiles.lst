@@ -1,0 +1,3 @@
+com\putao\user\pojo\User.class
+com\putao\user\api\UserApi.class
+com\putao\user\pojo\Comment.class

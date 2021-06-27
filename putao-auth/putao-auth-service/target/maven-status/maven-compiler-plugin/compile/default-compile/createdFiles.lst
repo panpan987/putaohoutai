@@ -1,0 +1,6 @@
+com\putao\auth\controller\BaseExceptionHandler.class
+com\putao\auth\service\AuthService.class
+com\putao\PutaoAuthApplication.class
+com\putao\auth\config\JwtProperties.class
+com\putao\auth\controller\AuthController.class
+com\putao\auth\client\UserClient.class

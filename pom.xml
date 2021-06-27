@@ -12,6 +12,9 @@
     <module>putao-gateway</module>
     <module>putao-item</module>
     <module>putao-common</module>
+    <module>putao-upload</module>
+    <module>putao-user</module>
+    <module>putao-auth</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -19,6 +22,7 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>2.0.7.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
   <properties>
@@ -31,7 +35,6 @@
     <druid.starter.version>1.1.9</druid.starter.version>
     <mysql.version>5.1.32</mysql.version>
     <pageHelper.starter.version>1.2.3</pageHelper.starter.version>
-    <leyou.latest.version>1.0.0-SNAPSHOT</leyou.latest.version>
     <fastDFS.client.version>1.26.1-RELEASE</fastDFS.client.version>
   </properties>
 
@@ -78,13 +81,13 @@
     </dependencies>
   </dependencyManagement>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
+  <!--<build>-->
+    <!--<plugins>-->
+      <!--<plugin>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+      <!--</plugin>-->
+    <!--</plugins>-->
+  <!--</build>-->
 
 </project>
